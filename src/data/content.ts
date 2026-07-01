@@ -70,7 +70,7 @@ export const features = [
 
 export const steps = [
   { title: '打开 Telegram', description: '从你已经熟悉的聊天入口开始。', icon: MessageCircle },
-  { title: '搜索 KORA', description: '找到 KORA China Guide 并开始对话。', icon: Search },
+  { title: '搜索 @Kora_china_bot', description: '在 Telegram 里找到 KORA 官方 Bot，并开始对话。', icon: Search },
   {
     title: '说出你的需求',
     description: '例如：“我在上海静安寺，预算150，想吃本帮菜”。',
