@@ -32,8 +32,32 @@ export const whatCards = [
   },
 ];
 
-export const traditional = ['广告太多', '推荐重复', '游客扎堆', '信息太杂'];
-export const koraWay = ['根据你的需求推荐', '更像朋友聊天', '本地人视角', '快速得到答案'];
+export const whyKoraReasons = [
+  {
+    title: '像朋友一样问',
+    description: '不用翻攻略、做筛选题。直接告诉 KORA 你在哪、想干嘛、预算多少，它会用聊天的方式给答案。',
+    icon: MessageCircle,
+    color: 'bg-sky-100 text-sky-600',
+  },
+  {
+    title: '本地人视角',
+    description: '优先推荐日常会去、当下还适合去的地方，关注营业时间、距离、排队和是否需要预约。',
+    icon: HeartHandshake,
+    color: 'bg-emerald-100 text-emerald-600',
+  },
+  {
+    title: '能直接行动',
+    description: '每条推荐都尽量给出价格、地址、导航、支付方式和注意事项，看到就能决定下一步。',
+    icon: Navigation,
+    color: 'bg-violet-100 text-violet-600',
+  },
+  {
+    title: '越具体越好用',
+    description: '深夜食堂、安静咖啡馆、约会餐厅、一个人吃饭、素食或忌口，都可以直接说。',
+    icon: Sparkles,
+    color: 'bg-amber-100 text-amber-600',
+  },
+];
 
 export const features = [
   { title: '找餐厅', description: '按城市、预算、口味和场景筛选。', icon: Utensils },

@@ -3,6 +3,8 @@ import { AnimatedSection } from '../components/AnimatedSection';
 import { Card } from '../components/Card';
 import { whatCards } from '../data/content';
 
+const colorStyles = ['bg-sky-100 text-sky-600', 'bg-fuchsia-100 text-fuchsia-600', 'bg-emerald-100 text-emerald-600'];
+
 export function WhatIsKora() {
   return (
     <AnimatedSection id="what" className="py-20 sm:py-28">
@@ -21,8 +23,8 @@ export function WhatIsKora() {
               viewport={{ once: true, margin: '-80px' }}
               transition={{ duration: 0.55, delay: index * 0.1 }}
             >
-              <Card className="h-full transition duration-300 hover:-translate-y-1 hover:shadow-glow">
-                <div className="flex h-12 w-12 items-center justify-center rounded-[8px] bg-brand/10 text-brand">
+              <Card className="h-full bg-white/90 transition duration-300 hover:-translate-y-1 hover:shadow-glow">
+                <div className={`flex h-12 w-12 items-center justify-center rounded-[8px] ${colorStyles[index]}`}>
                   <card.icon className="h-6 w-6" />
                 </div>
                 <h3 className="mt-6 text-xl font-semibold">{card.title}</h3>
