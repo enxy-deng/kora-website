@@ -28,6 +28,12 @@ npm run build
 
 项目已包含 GitHub Actions 部署配置。推送到 GitHub 的 `main` 分支后，在仓库的 `Settings -> Pages` 中将 `Source` 设置为 `GitHub Actions`。
 
+线上地址：
+
+```text
+https://enxy-deng.github.io/kora-website/
+```
+
 ## Structure
 
 ```text
